@@ -4,7 +4,6 @@ This repository contains the code used to produce the results of
 
 > R. Rai, Y. Patil, L. Kabiraj, A. Saurabh, C. Meena,
 > **Effect of Colored Noise on Coupled Thermoacoustic Oscillators**,
-> *Nonlinear Dynamics* (2026). DOI: *to be added*
 
 The study considers two horizontal Rijke tubes, modelled with a Galerkin
 reduced-order model, interacting through time-delay and dissipative coupling.
@@ -19,13 +18,10 @@ coherence factor (coherence resonance) of the coupled system.
 ```
 coupled_TO_colored_noise/
 ├── README.md
-├── LICENSE
-├── CITATION.cff
 ├── requirements.txt
 ├── .gitignore
 ├── scripts/
 │   └── noise_calibration.py            reference white-noise intensity Γ0
-├── figures/
 │   ├── fig01_bifurcation_single_tube.py
 │   ├── fig03_noise_psd.py
 │   ├── fig04_Prms_vs_Ktau.py
@@ -35,8 +31,9 @@ coupled_TO_colored_noise/
 │   ├── fig08_Prms_vs_detuning.py
 │   ├── fig09_heatmap_detuning_Kd.py
 │   └── fig10_coherence_dissipative.py
-├── data/                               saved results (created by the scripts)
-└── output/                             figures saved by fig01 and fig03
+├── figures/
+├── data/
+└── output/
 ```
 
 Each script is self-contained: it includes the model, the noise generation and
