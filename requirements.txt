@@ -1,0 +1,10 @@
+# Python dependencies for the codes
+
+# Tested with Python 3.12.
+
+numpy>=2.0        # arrays and numerics (np.trapezoid requires NumPy 2.0+)
+scipy>=1.12       # Welch spectra and Lorentzian curve fitting
+numba>=0.59       # just-in-time compilation of the simulation loops
+joblib>=1.3       # parallel execution of realizations and parameter sweeps
+matplotlib>=3.8   # figures 
+tqdm>=4.66        # progress bars 
