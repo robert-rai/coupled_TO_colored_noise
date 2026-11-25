@@ -153,17 +153,6 @@ The error bars in the paper are standard errors of the mean, `std / sqrt(n_runs)
 
 In the coherence-factor folders (`data/fig07/`, `data/fig10/`), the `*_wn_power.npy` files hold β for white noise and the `*_cn_power.npy` files hold β for the five OU noises (one column per τ<sub>c</sub>/T<sub>0</sub>). `intensity.npy` and `K_values.npy` give the swept parameter values.
 
-## Computational requirements
-
-Every simulation stores the full time history. With many parallel processes, limit `--n-jobs` to the available memory.
-
-Figs. 1, 3 and the calibration run in minutes to hours on a workstation. The two-parameter maps (Figs. 6 and 9) are the most demanding: on a 128-core machine, one noise amplitude takes roughly half a day.
-
-All random numbers (initial conditions and noise) are seeded, so repeated runs give identical results.
-
-## Citation
-
-If you use this code, please cite the article above. Citation metadata are provided in `CITATION.cff`, and GitHub shows a "Cite this repository" button based on it.
 
 
 ## Contact
