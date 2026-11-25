@@ -153,9 +153,3 @@ The error bars in the paper are standard errors of the mean, `std / sqrt(n_runs)
 
 In the coherence-factor folders (`data/fig07/`, `data/fig10/`), the `*_wn_power.npy` files hold β for white noise and the `*_cn_power.npy` files hold β for the five OU noises (one column per τ<sub>c</sub>/T<sub>0</sub>). `intensity.npy` and `K_values.npy` give the swept parameter values.
 
-
-
-## Contact
-
-Chandrakala Meena (corresponding author), Department of Physics, IISER Pune
-— chandrakala@iiserpune.ac.in
